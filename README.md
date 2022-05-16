@@ -1,4 +1,4 @@
-# Course Project for Deep Learning - Spring 2022 at NYU
+# VICReg and FasterRCNN for Object Detection (Self Supervised Learning)
 
 This is the code repository for object detection using self supervised methods - VICReg and FasterRCNN/DETR. This work was done for the Deep Learning Spring'22 course at NYU.
 
