@@ -1,8 +1,11 @@
-# VICReg: Variance-Invariance-Covariance Regularization For Self-Supervised Learning
+# Training, Finetuning, and Evaluating ResNet-50 for Object Detection
 
-This repository provides a PyTorch implementation and pretrained models for VICReg, as described in the paper [VICReg: Variance-Invariance-Covariance Regularization For Self-Supervised Learning](https://arxiv.org/abs/2105.04906)\
-Adrien Bardes, Jean Ponce and Yann LeCun\
-Meta AI, Inria
+This repository provides code to train a ResNet-50 backbone using VICReg and finetuning this backbone using FasterRCNN/DETR (with hyperparameters as mentioned in the reference paper).
+
+To pre-train using VICReg:
+```
+.\pretrain_vicreg.sh
+``` 
 
 --- 
 
