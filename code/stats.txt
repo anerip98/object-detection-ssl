@@ -1,0 +1,2 @@
+main_vicreg.py --local_rank=0 --data-dir ../labeled_data/training/images --exp-dir . --arch resnet50 --epochs 100 --batch-size 512 --base-lr 0.3
+main_vicreg.py --local_rank=0 --data-dir ../labeled_data/training/images --exp-dir . --arch resnet50 --epochs 100 --batch-size 512 --base-lr 0.3
