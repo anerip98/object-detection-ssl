@@ -2,7 +2,9 @@
 
 ## Contributors 
 [Aneri Patel](https://github.com/anerip98)
+
 [Mohammed Khalfan](https://github.com/mohammedkhalfan)
+
 [Xiang Pan](https://github.com/Xiang-Pan)
 
 This is the code repository for object detection using self supervised methods - VICReg and FasterRCNN/DETR. This work was done for the Deep Learning Spring'22 course at NYU.
@@ -16,7 +18,7 @@ The submitted model was later evaluated on another unknown dataset.
 
 Here, we pre-train a ResNet-50 backbone using VICReg and later finetune the model using FasterRCNN for object detection. We try finetuning using DETR and find that FasterRCNN converges faster. We use the hyperparameters mentioned in the reference papers and train on 4 V100 GPUs on the NYU HPC.
 
-References:
+#References:
 
 [1] Bardes, Adrien, Jean Ponce, and Yann LeCun. "Vicreg: Variance-invariance-covariance regularization for self-supervised learning." arXiv preprint arXiv:2105.04906 (2021).
 
