@@ -4,9 +4,18 @@ This repository provides code to train a ResNet-50 backbone using VICReg and fin
 
 To pre-train using VICReg:
 ```
-.\pretrain_vicreg.sh
+./pretrain_vicreg.sh
 ``` 
 
+To fine-tune using FasterRCNN:
+```
+./finetune_fasterrcnn.sh
+``` 
+
+To fine-tune using DETR:
+```
+./finetune_detr.sh
+``` 
 --- 
 
 <!-- 
