@@ -1,12 +1,5 @@
 # Course Project for Deep Learning - Spring 2022 at NYU
 
-## Contributors 
-[Aneri Patel](https://github.com/anerip98)
-
-[Mohammed Khalfan](https://github.com/mohammedkhalfan)
-
-[Xiang Pan](https://github.com/Xiang-Pan)
-
 This is the code repository for object detection using self supervised methods - VICReg and FasterRCNN/DETR. This work was done for the Deep Learning Spring'22 course at NYU.
 
 The dataset is an unknown dataset provided for the course project. The dataset contains:
@@ -25,3 +18,10 @@ Here, we pre-train a ResNet-50 backbone using VICReg and later finetune the mode
 [2] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems 28 (2015).
 
 [3] Zhu, Xizhou, et al. "Deformable detr: Deformable transformers for end-to-end object detection." arXiv preprint arXiv:2010.04159 (2020).
+
+## Contributors 
+[Aneri Patel](https://github.com/anerip98)
+
+[Mohammed Khalfan](https://github.com/mohammedkhalfan)
+
+[Xiang Pan](https://github.com/Xiang-Pan)
